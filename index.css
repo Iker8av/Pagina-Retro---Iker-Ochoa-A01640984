@@ -8,7 +8,11 @@
 
 body {
     background-image: url("stars.jpg");
-    background-repeat: repeat;
+        background-repeat: repeat;
+}
+
+.subBody {
+    
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -147,4 +151,15 @@ button {
 
 .game-card-open>div>div p {
     width: inherit;
+}
+
+.metroidSpawn {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.metroid {
+    width: 7%;
+    position: absolute;
 }

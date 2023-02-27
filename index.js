@@ -3,7 +3,6 @@ let pageJson;
 fetch('./index.json')
     .then((response) => {return response.json();})
     .then((data) => {
-        console.log(data)
         pageJson = data.data;
     });
  
