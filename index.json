@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "title": "Metroid 1 | Metroid Zero Mission",
+            "img": "metroid1.webp",
+            "body": "Samus llega al planeta Zebes tras unos Piratas Espaciales que parecen estar experimentando con los Metroids, unas peligrosas criaturas que se pegan a cualquier organismo y le drenan la energía hasta matarlo. La Federación Galáctica la ha enviado allí a ella sola cuando ellos no han podido detenerlos, lo cual deja bastante claro que la mayoría de organismos no sirven para nada y al final tienes que ir tú a dejarte la piel para solucionar sus problemas y salvarlos."
+        },
+        {
+            "title": "Metroid 2: Return of Samus | Metroid Samus Returns",
+            "img": "metroid2.webp",
+            "body": "La cazarrecompensas Samus Aran ya ha vencido a los Piratas Espaciales en numerosas ocasiones hasta este punto. Su primera victoria contra los piratas fue en el planeta Zebes, donde destruyó su base y se aseguró de que no utilizaran los recientemente descubiertos organismos Metroid como armas biológicas. Para asegurarse de que esto no pase de nuevo, la Federación Galáctica envió un escuadrón de marines armados al planeta de origen de los Metroids, SR388. Después de que ningún marine regresara con vida del planeta, decidieron enviar a Samus Aran, ya que ella tenía experiencia enfrentando a esas criaturas. Le asignaron la misión de destruir, de una vez por todas, a la especie Metroid que hay en el planeta."
+        },
+        {
+            "title": "Super Metroid",
+            "img": "superMetroid.webp",
+            "body": "Samus Aran trae el último Metroid a la colonia espacial de Ceres para su estudio científico. La investigación del espécimen, una larva, revela que sus habilidades para producir energía en realidad podrían aprovecharse para el bien de la civilización. Poco después de irse, Samus recibe una llamada de socorro que la alerta para que regrese a la colonia de inmediato. Encuentra a los científicos muertos y la larva de Metroid robada por Ridley, líder de los Piratas Espaciales. Samus escapa de la colonia durante una secuencia de autodestrucción y sigue a Ridley al planeta Zebes.​ Ella busca el Metroid en el planeta y descubre que los Piratas han reconstruido su base allí"
+        },
+        {
+            "title": "Metroid Fusion",
+            "img": "metroidFusion.webp",
+            "body": "Samus continúa sus investigaciones espaciales con la Federación Galáctica. En una misión de investigación, Samus es corrompida con un virus parásito llamado X, que se queda en su cuerpo. Samus, al pensar que no es nada grave, vuelve a su nave. Pero, por el camino, Samus queda inconsciente y su nave se desvía hacia un cinturón de asteroides donde se estrella y estalla. La Federación Galáctica consigue salvarla, pero el parásito X sigue expandiéndose. A los miembros de la federación solo se les ocurre utilizar el ADN de la última cría de Metroid, con la cual salvan a Samus, ya que los metroides eran los principales depredadores de los X. Además, el traje de Samus cambia drásticamente debido a las operaciones quirúrgicas que le hacen al intentar extirparle el parásito X, debido a que no podían quitarle el traje estando inconsciente."
+        },
+        {
+            "title": "Metroid Prime",
+            "img": "metroidPrime.webp",
+            "body": "La historia sucede después de que Samus destruyera la base pirata en Zebes, aunque el tiempo exacto transcurrido sigue en debate.[1] El actuar de Samus representó un duro golpe para la organización de los Piratas Espaciales, quienes optaron por dividirse en dos grupos: uno dedicado a reconstruir la base en Zebes, y otro enviado a explorar las estrellas en busca de nuevas y potentes fuentes de energía. El segundo grupo, entonces, halló una fuerte emisión de energía en un planeta vecino de Zebes: Tallon IV. Tiempo después, Samus intercepta un mensaje de auxilio proveniente de la fragata pirata Orpheon, misma que explora brevemente antes de que se desencadene una reacción en cadena tras los daños al reactor principal producidos tras la lucha entre Samus y uno de los especímenes altamente mutados con una sustancia desconocida."
+        },
+        {
+            "title": "Metroid Prime 2: Echoes",
+            "img": "metroidPrime2.webp",
+            "body": "Transcurridos seis meses desde los eventos de Metroid Prime, Samus Aran ha sido contratada por la Federación Galáctica para investigar la desaparición de un grupo de soldados en el planeta Aether y prestarles ayuda si es necesario. Samus acepta la misión, sin embargo al entrar en la atmósfera del planeta su nave es dañada por una tormenta eléctrica. Samus aterriza cerca de las últimas coordenadas de los soldados y comienza a explorar los alrededores para buscar supervivientes. No muy lejos del lugar de aterrizaje, cuando exploraba una caverna, encuentra un portal interdimensional."
+        },
+        {
+            "title": "Metroid Prime 3: Corruption",
+            "img": "metroidPrime3.webp",
+            "body": "La cazarrecompensas Samus Aran lleva una veintena de años luchando contra la amenaza de los Piratas Espaciales y su obsesión por controlar a los metroids, una extraña especie que puede emplearse como una poderosa arma biológica e incluso como fuente de energía."
+        },
+        {
+            "title": "Metroid Dread",
+            "img": "metroidDread.webp",
+            "body": "La historia de Samus continúa tras los acontecimientos de Metroid Fusion cuando aterriza en el planeta ZDR para investigar una misteriosa transmisión enviada a la Federación Galáctica. Este planeta remoto está totalmente dominado por agresivas formas de vida alienígena y seres mecánicos aterradores. Samus es más ágil que nunca, pero ¿logrará escapar de las garras de la amenaza inhumana que merodea por las profundidades de ZDR?"
+        }
+    ]
+}
