@@ -54,6 +54,11 @@ article {
     align-items: center;
 }
 
+.carousel-container {
+    margin: 50px 0;
+    z-index: 1;
+}
+
 .imgContainer {
     width: 50%;
     /* aspect-ratio: 1/1; */
@@ -157,9 +162,26 @@ button {
     top: 0;
     left: 0;
     position: absolute;
+    z-index: 100;
 }
 
 .metroid {
     width: 7%;
     position: absolute;
+}
+
+.message {
+    background-color: var(--gray);
+    border-style: inset;
+    border-width: 5px;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 10px;
+    left: 90%;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    z-index: 100;
+    color: white;
 }
