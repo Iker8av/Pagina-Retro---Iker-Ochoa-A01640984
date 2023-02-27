@@ -1,10 +1,18 @@
 let pageJson;
- 
-fetch('./index.json')
-    .then((response) => {return response.json();})
-    .then((data) => {
-        pageJson = data.data;
-    });
+
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "./index.json");
+xhr.send();
+xhr.responseType = "json";
+xhr.onload = () => {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    const data = xhr.response;
+    pageJson = data.data;
+    console.log(data);
+  } else {
+    console.log(`Error: ${xhr.status}`);
+  }
+};
  
 function showDetails(gameInfo){
     document.querySelector(".background").style.display = "block";
