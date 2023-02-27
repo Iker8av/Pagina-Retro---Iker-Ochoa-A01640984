@@ -13,9 +13,7 @@ function showDetails(gameInfo){
     document.querySelector(".game-card-open").innerHTML +=
         `
         <div class = "gameDetails">
-            <div class="game-poster-container">
             <img class="game-poster" src="img/${pageJson[gameInfo].img}" alt="${pageJson[gameInfo].title}" title="${pageJson[gameInfo].title}">
-            </div>
             <div class="gameInfo">
                 <h2 class="game-title">${pageJson[gameInfo].title}</h2>
                 <p>${pageJson[gameInfo].body}</p>

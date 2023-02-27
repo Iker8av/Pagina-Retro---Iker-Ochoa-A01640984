@@ -110,11 +110,11 @@ button {
     border-width: 5px;
     display: none;
     width: 60%;
-    height: auto;
+    height: fit-content;
     position: fixed;
-    margin: 100px 0;
-    /* top: 0%;
-    bottom: 0%; */
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
     left: 20%;
     right: 20%;
 }
@@ -125,12 +125,8 @@ button {
         align-items: center;
 }
 
-.game-poster-container {
-    width: 200%;
-}
-
 .game-poster {
-    width: 100%;
+    width: 25%;
 }
 
 .game-card-open p  {
