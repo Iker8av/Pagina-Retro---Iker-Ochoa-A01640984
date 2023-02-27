@@ -13,20 +13,26 @@
     <script>
         $(document).ready(function () {
             var body = document.getElementById("body");
+            var metroidAmount = 5
             var counter = 0;
 
-            for (let i = 0; i < 5; i++) {
-                var img = $('<img>');
-                img.attr('src', "metroid.png");
-                img.attr('class', 'metroid');
-                img.attr('id', 'metroid'+i);
-                img.appendTo('#metroidSpawn');
-                img.css("margin-left", Math.random() * 90 + "%");
-                img.css("margin-top", Math.random() * 90 + "vh");
-                img.css("z-index", 100)
-            }
+            const respawnMetroid = () => {
+                for (let i = 0; i < metroidAmount; i++) {
+                    var img = $('<img>');
+                    img.attr('src', "metroid.png");
+                    img.attr('class', 'metroid');
+                    img.attr('id', 'metroid'+i);
+                    img.appendTo('#metroidSpawn');
+                    img.css("margin-left", Math.random() * 90 + "%");
+                    img.css("margin-top", Math.random() * 90 + "vh");
+                    img.css("z-index", 101)
+                }
 
-            $(".metroid").mousedown(function () {
+                $('#metroidCounter').text("Metroid eliminados: " + counter + " / " + metroidAmount)
+            }
+            respawnMetroid();
+
+            $(".metroid").click(function () {
                 counter++
                 var img = $('<img>');
                 img.attr('src', "explosion.gif");
@@ -35,9 +41,12 @@
                 img.appendTo('#metroidSpawn');
                 img.css("margin-left", $(this).css('margin-left'));
                 img.css("margin-top", $(this).css('margin-top'));
-                img.css("z-index", 100)
+                img.css("z-index", 101)
 
-                $('#metroidCounter').text("Metroid eliminados: " + counter + " / 5")
+                if (counter < 5)
+                    $('#metroidCounter').text("Metroid eliminados: " + counter + " / " + metroidAmount)
+                else 
+                    $('#metroidCounter').text("Felicidades has eliminado a todos los metroids. Refresca la página para reintentar")
 
                 $(this).remove()
 
